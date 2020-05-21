@@ -1,0 +1,51 @@
+@media screen and (min-width:1001px) { 
+body{
+  font-family: 'Nanum Myeongjo', Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+}
+
+.pc_header{
+  display: flex;
+  /* background-color: olive; */
+  text-align: center;
+  position: relative;
+}
+.pc_header img{
+position: absolute;
+top: 0;
+left: 70px;
+}
+.pc_toptitle{
+margin: 0 auto;
+height: 120px;
+}
+.pc_toptitle h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 120px;
+  font-size: 36px;
+}
+.pc_introduction {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+.pc_main{
+  width: 834px;
+  margin: 0 auto;
+  margin-bottom: 43px;
+}
+
+.pc_main h2{
+  font-size: 36px;
+}
+.pc_explanation{
+  font-size: 19px;
+}
+.pc_main img{
+  display: none;
+}
+
+.low_logo{
+  display: none;
+}
+}
